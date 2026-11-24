@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- DRAFT for Christopher's approval. Not published. Deploy as /ayvo/index.html in the trublshut.com GitHub Pages repo. -->
+<title>AYVO: listing photo tidy-ups, listing copy and enquiry replies for estate and letting agents | Trublshut</title>
+<meta name="description" content="AYVO, a brand of Trublshut, tidies listing photos, writes portal-ready listing copy and drafts first replies to enquiries for estate and letting agents. A person checks everything before it goes out. Get 2 listing photos tidied free.">
+<link rel="canonical" href="https://trublshut.com/ayvo/">
+<meta name="theme-color" content="#0A0A0B">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Trublshut">
+<meta property="og:title" content="AYVO: the listing and enquiry desk for estate and letting agents">
+<meta property="og:description" content="Photo tidy-ups, portal-ready listing copy and first-reply drafts, checked by a person. Get 2 of your listing photos tidied, free.">
+<meta property="og:url" content="https://trublshut.com/ayvo/">
+<meta property="og:image" content="https://trublshut.com/ayvo/img/kitchen-after.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"Organization","@id":"https://trublshut.com/#org","name":"Trublshut","url":"https://trublshut.com/","email":"hello@trublshut.com","telephone":"+254117513755","address":{"@type":"PostalAddress","streetAddress":"iHIT","addressLocality":"Kilimani, Nairobi","addressCountry":"KE"},"sameAs":["https://www.linkedin.com/company/trublshut"]},
+ {"@type":"Service","@id":"https://trublshut.com/ayvo/#service","name":"AYVO listing and enquiry desk","brand":{"@type":"Brand","name":"AYVO"},"provider":{"@id":"https://trublshut.com/#org"},"serviceType":"Real estate listing photo editing, listing copywriting and enquiry reply drafting","audience":{"@type":"BusinessAudience","audienceType":"Estate agents and letting agents"},"areaServed":["GB","AE","CA","KE","AU"],"url":"https://trublshut.com/ayvo/"}
+]}
+</script>
+<style>
+@font-face{font-family:"Sora";src:url("../assets/fonts/sora-latin-wght-normal.woff2") format("woff2");font-weight:100 800;font-display:swap}
+@font-face{font-family:"Hanken Grotesk";src:url("../assets/fonts/hanken-grotesk-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-display:swap}
+*,*::before,*::after{box-sizing:border-box}
+body,h1,h2,h3,p,ul,figure{margin:0}
+ul{padding:0;list-style:none}
+img{display:block;max-width:100%;height:auto}
+:root{--bg:#0A0A0B;--bg2:#141416;--ink:#F4ECDD;--ink2:#BDB6AA;--line:#2E2D30;--orange:#FF8A3D;--purple:#B476F0;--chalk:#F3F6F1;--dark:#10201A;--dark2:#42514A;--lline:#D3DAD2;--go:#107F2A;
+--display:"Sora","Helvetica Neue",Arial,sans-serif;--text:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif;--max:1160px;--g:clamp(18px,4vw,44px);--sec:clamp(56px,8vw,104px)}
+body{background:var(--bg);color:var(--ink);font-family:var(--text);font-size:1.0625rem;line-height:1.6}
+a{color:var(--orange)}
+.wrap{max-width:calc(var(--max) + var(--g)*2);margin:0 auto;padding:0 var(--g)}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.15;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,5.2vw,3.5rem);max-width:18ch}
+h2{font-size:clamp(1.5rem,3.4vw,2.3rem);max-width:22ch;margin-bottom:18px}
+h3{font-size:1.15rem;margin-bottom:6px}
+.lede{font-size:clamp(1.08rem,1.6vw,1.28rem);color:var(--ink2);max-width:60ch;margin-top:18px}
+.muted{color:var(--ink2)}
+.small{font-size:.9rem}
+.sec{padding:var(--sec) 0;border-top:1px solid var(--line)}
+header.top{position:sticky;top:0;z-index:5;background:rgba(10,10,11,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+header.top img{height:28px;width:auto}
+header.top nav a{color:var(--ink);text-decoration:none;font-size:.95rem;margin-left:18px}
+header.top nav a.cta{background:var(--orange);color:#1a0f05;padding:9px 14px;border-radius:999px;font-weight:600}
+@media(max-width:720px){header.top nav a:not(.cta){display:none}}
+.hero{padding:clamp(44px,7vw,96px) 0 var(--sec)}
+.brandline{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);margin-bottom:16px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-block;padding:14px 20px;border-radius:999px;font-weight:600;text-decoration:none;font-size:1rem}
+.btn.primary{background:var(--orange);color:#1a0f05}
+.btn.ghost{border:1px solid var(--line);color:var(--ink)}
+.btn:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--purple);outline-offset:2px}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:36px}
+.ba figure{position:relative;background:var(--bg2);border-radius:14px;overflow:hidden}
+.ba figcaption{position:absolute;left:10px;top:10px;background:rgba(0,0,0,.7);color:#fff;font-size:.78rem;padding:4px 9px;border-radius:999px;letter-spacing:.04em}
+.ba figure.after figcaption{background:var(--orange);color:#1a0f05}
+.credit{font-size:.8rem;color:var(--ink2);margin-top:10px}
+@media(max-width:560px){.ba{grid-template-columns:1fr}}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+@media(max-width:860px){.grid3{grid-template-columns:1fr}}
+.card{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:22px}
+.card .tag{display:inline-block;font-size:.75rem;color:var(--purple);border:1px solid var(--purple);border-radius:999px;padding:2px 9px;margin-bottom:12px}
+ol.steps{counter-reset:s;list-style:none;padding:0;margin-top:24px;display:grid;gap:14px}
+ol.steps li{counter-increment:s;padding-left:48px;position:relative}
+ol.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--orange);color:#1a0f05;font-weight:700;display:grid;place-items:center;font-family:var(--display)}
+.demo-slot{border:2px dashed var(--purple);border-radius:16px;padding:20px;margin-top:24px;background:rgba(180,118,240,.06)}
+.demo-slot .label{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--purple);margin-bottom:12px}
+.frames{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+.frames img{border-radius:10px;border:1px solid var(--line)}
+@media(max-width:720px){.frames{grid-template-columns:1fr}}
+.light{background:var(--chalk);color:var(--dark)}
+.light .muted,.light .lede{color:var(--dark2)}
+.light a{color:var(--go)}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px;max-width:820px}
+form .full{grid-column:1/-1}
+@media(max-width:640px){form{grid-template-columns:1fr}}
+label{display:block;font-weight:600;font-size:.95rem;margin-bottom:6px}
+label .opt{font-weight:400;color:var(--dark2)}
+input,select,textarea{width:100%;padding:12px 14px;border:1px solid #B9C3B9;border-radius:10px;background:#fff;font:inherit;color:var(--dark)}
+textarea{min-height:96px}
+.check{display:flex;gap:10px;align-items:flex-start;font-weight:400}
+.check input{width:20px;height:20px;margin-top:3px;flex:none}
+.hp{position:absolute;left:-9999px}
+button[type=submit]{background:var(--dark);color:#fff;border:0;border-radius:999px;padding:15px 24px;font-weight:700;font-size:1rem;cursor:pointer}
+.faq details{border-top:1px solid var(--line);padding:16px 0}
+.faq summary{cursor:pointer;font-weight:600;font-family:var(--display)}
+.faq p{color:var(--ink2);margin-top:8px;max-width:70ch}
+footer{border-top:1px solid var(--line);padding:36px 0 48px;color:var(--ink2);font-size:.92rem}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px}
+footer a{color:var(--ink)}
+</style>
+<!-- TODO (needs Christopher's yes): free analytics snippet, e.g. GoatCounter or Cloudflare Web Analytics. See plan.md. -->
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a href="/ayvo/" aria-label="AYVO home"><img src="../assets/logos/ayvo-logo.png" alt="AYVO" width="991" height="324"></a>
+  <nav aria-label="AYVO page"><a href="#how">How it works</a><a href="#receptionist">Receptionist demo</a><a href="#pricing">Pricing</a><a class="cta" href="#sample">Free sample</a></nav>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+  <p class="brandline">AYVO, a brand of Trublshut · for estate and letting agents</p>
+  <h1>Listings that look ready and enquiries answered, with a person checking every one.</h1>
+  <p class="lede">AYVO is a listing and enquiry desk for estate and letting agents. We tidy your listing photos, write portal-ready listing copy and draft the first reply to each new enquiry. A person checks everything before it goes out, and your team stays in charge of what gets sent.</p>
+  <div class="btns">
+    <a class="btn primary" href="#sample">Get 2 of your listing photos tidied, free</a>
+    <a class="btn ghost" href="#receptionist">See the after-hours receptionist (demo)</a>
+  </div>
+
+  <div class="ba" aria-label="Before and after example">
+    <figure><img src="img/kitchen-before.jpg" alt="Open-plan flat with kitchen, before editing: slightly warm colour and leaning verticals" width="1280" height="960" loading="eager"><figcaption>BEFORE</figcaption></figure>
+    <figure class="after"><img src="img/kitchen-after.jpg" alt="The same room after editing: neutral white balance and straightened verticals" width="1280" height="960" loading="eager"><figcaption>AFTER</figcaption></figure>
+  </div>
+  <p class="credit">Example edit: white balance, exposure and vertical lines corrected. Nothing added or removed. Original photo: “Empty apartment in Berlin with fitted kitchen and chair”, Wikimedia Commons, CC0. This is a demonstration, not a client job.</p>
+</div></section>
+
+<section class="sec" id="how"><div class="wrap">
+  <h2>What the desk does</h2>
+  <p class="lede">Three jobs that take up a lot of an agent’s week. Pick the ones you want help with.</p>
+  <div class="grid3">
+    <div class="card"><h3>Photo tidy-ups</h3><p class="muted">Brighter, straighter and true-to-colour listing photos. Exposure, white balance, straightening and mild contrast only. We never add furniture, swap skies or hide defects.</p></div>
+    <div class="card"><h3>Portal-ready listing copy</h3><p class="muted">Descriptions written to the length and style the portals you use expect, built from the facts you give us. You approve every description before it is published.</p></div>
+    <div class="card"><h3>First-reply drafts</h3><p class="muted">When an enquiry arrives, AI drafts a reply and a person checks it. Your team sends it, so nothing goes out in your name without a human look.</p></div>
+  </div>
+  <ol class="steps">
+    <li><b>Send us 2 listing photos</b> (or a link to a live listing). Free, no card.</li>
+    <li><b>We return the tidied versions</b> side by side with your originals, usually within 2 working days.</li>
+    <li><b>If you like them</b>, start a 2-week pilot on your own listings and enquiries. If not, keep the photos anyway.</li>
+  </ol>
+</div></section>
+
+<section class="sec" id="receptionist"><div class="wrap">
+  <span class="card tag" style="padding:2px 9px;border-radius:999px;background:none">Coming soon · demo only</span>
+  <h2>After-hours receptionist (demo)</h2>
+  <p class="lede">An upgrade we are building for the desk: a receptionist that answers enquiries out of hours, offers viewing slots and hands the conversation to your team in the morning. It is not live yet. You can try the demo and join the trial list.</p>
+
+  <!-- ============ SWEDE WIDGET SLOT ============
+       Swede's embeddable receptionist chat widget preview goes inside #ayvo-receptionist-demo.
+       Source/plan: /workspace/ayvo-web/ (Swede). Do not build a widget here.
+       Keep the "demo" label until the live version works and Christopher approves.
+       The static frames below are the fallback if the widget does not load. -->
+  <div class="demo-slot" id="ayvo-receptionist-demo" data-slot="swede-receptionist-widget">
+    <p class="muted small">Screens from the recorded demo. Sample conversation, not a real agency or client.</p>
+    <div class="frames">
+      <img src="img/rx-01-enquiry-reply.jpg" alt="Demo: the receptionist replies to an evening enquiry" width="1280" height="720" loading="lazy">
+      <img src="img/rx-02-viewing-booked.jpg" alt="Demo: a viewing slot is offered and booked" width="1280" height="720" loading="lazy">
+      <img src="img/rx-03-human-takeover.jpg" alt="Demo: a person from the agency takes over the conversation" width="1280" height="720" loading="lazy">
+    </div>
+  </div>
+  <!-- ========== END SWEDE WIDGET SLOT ========== -->
+  <div class="btns"><a class="btn ghost" href="#sample">Join the trial list</a></div>
+</div></section>
+
+<section class="sec light" id="sample"><div class="wrap">
+  <h2>Get 2 of your listing photos tidied, free</h2>
+  <p class="lede">Tell us where to find two photos from a current listing. We send back the tidied versions next to your originals. No card, no obligation.</p>
+  <form action="https://formspree.io/f/mzdnzdlv" method="POST">
+    <input type="hidden" name="_subject" value="AYVO free photo sample request">
+    <input type="hidden" name="form" value="ayvo-photo-sample">
+    <input type="hidden" name="source" value="trublshut.com/ayvo">
+    <div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required></div>
+    <div><label for="email">Work email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+    <div><label for="agency">Agency name</label><input id="agency" name="agency" autocomplete="organization" required></div>
+    <div><label for="country">Country</label>
+      <select id="country" name="country" required>
+        <option value="">Choose…</option><option>United Kingdom</option><option>United Arab Emirates</option><option>Canada</option><option>Kenya</option><option>Australia</option><option>Other</option>
+      </select></div>
+    <div class="full"><label for="listing">Link to the listing or photos</label><input id="listing" name="listing_url" type="url" inputmode="url" placeholder="https://… (portal listing, website or shared folder)" required></div>
+    <div><label for="phone">WhatsApp or phone <span class="opt">(optional)</span></label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+    <div><label for="interest">Also interested in <span class="opt">(optional)</span></label>
+      <select id="interest" name="interest"><option value="">Just the photo sample</option><option>Listing copy</option><option>First-reply drafts</option><option>All three</option></select></div>
+    <div class="full"><label for="notes">Anything we should know? <span class="opt">(optional)</span></label><textarea id="notes" name="notes" placeholder="e.g. which two photos, portal you list on"></textarea></div>
+    <div class="full"><label class="check"><input type="checkbox" name="trial_list" value="yes"> Join the trial list for the after-hours receptionist. We will contact you when it is ready to try.</label></div>
+    <div class="full"><label class="check"><input type="checkbox" name="consent" value="yes" required> I confirm I can share these photos and I am happy for Trublshut to edit them for this sample only. They will not be published without my written permission.</label></div>
+    <div class="hp" aria-hidden="true"><label for="_gotcha">Leave this empty</label><input id="_gotcha" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+    <div class="full"><button type="submit">Send my free sample request</button>
+      <p class="small muted" style="margin-top:10px">We'll only use these details to reply to this request and, if you join the trial list, to contact you about the AYVO trial. Email <a href="mailto:hello@trublshut.com">hello@trublshut.com</a> to have them deleted.</p></div>
+  </form>
+</div></section>
+
+<section class="sec" id="pricing"><div class="wrap">
+  <p>Pricing on request: email <a href="mailto:hello@trublshut.com">hello@trublshut.com</a>.</p>
+</div></section>
+
+<section class="sec faq"><div class="wrap">
+  <h2>Questions agents ask</h2>
+  <details><summary>Do you fake or stage anything in the photos?</summary><p>No. We adjust exposure, white balance, straightness and mild contrast. We do not add or remove objects, replace skies or hide defects.</p></details>
+  <details><summary>Does AI send messages to my clients?</summary><p>No. AI drafts and a person checks. Your team decides what is sent. The after-hours receptionist, when it is live, will be set up only with your approval and will hand conversations back to your team.</p></details>
+  <details><summary>Which countries do you work with?</summary><p>We work remotely with agents in the UK, the UAE, Canada, Kenya and Australia from our office at iHIT, Kilimani, Nairobi.</p></details>
+  <details><summary>Who is behind AYVO?</summary><p>AYVO is a brand of Trublshut, an African-owned technology company founded by Christopher Ojo, Founder &amp; Principal. Trublshut also builds Nota54 for freight forwarders.</p></details>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <div>AYVO, a brand of Trublshut AI Limited · iHIT, Kilimani, Nairobi<br><a href="mailto:hello@trublshut.com">hello@trublshut.com</a> · <a href="https://wa.me/254117513755">WhatsApp</a> · <a href="https://www.linkedin.com/company/trublshut">LinkedIn</a></div>
+  <div><a href="/">Trublshut home</a> · <a href="/#/nota54">Nota54</a> · <a href="/#/contact">Contact</a></div>
+</div></footer>
+<script src="/assets/ayvo-widget.js?v=20261124" defer data-sample-href="#sample" data-endpoint="https://formspree.io/f/mzdnzdlv"></script>
+</body>
+</html>
